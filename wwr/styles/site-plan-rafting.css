@@ -17,7 +17,7 @@
 
 body{
     font-family: var(--Roboto);
-    max-width: 960;
+    max-width: 960vw;
     padding: 20px;
 }
 
