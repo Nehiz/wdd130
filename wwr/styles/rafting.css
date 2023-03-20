@@ -29,6 +29,22 @@ p {
     padding: 25px;
 }
 
+article {
+    max-width: 600px;
+    position: relative;
+    border: 10px solid red;
+}
+
+article img {
+    width: 100%
+}
+
+article h2 {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
 .hero img {
     display: block;
     width: 100%;
