@@ -35,6 +35,7 @@ header img {
 
 .hero img {
     width: 1220px;
+    float: right;
 }
 /* This is the styling for Header in hero class*/
 
@@ -57,7 +58,6 @@ nav {
 }
 .navbar a {
     padding: 5px 5px;
-
     margin-left: 82px;
     text-decoration: none;
     color: steelblue;
