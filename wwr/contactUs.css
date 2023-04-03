@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+:root {
+    --primary-color: #1D12D3;
+    --secondary-color: #FFFFFF;
+    --accent1-color: #FFDA27;
+    --accent2-color: #000;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #696E57;
+    --nav-hover-link-color: #1D12D3;
+    --nav-hover-background-color: #FFDA27;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--Roboto);
+    color: var(--primary-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 400px 1fr 0.5fr;
+}
+
+header img {
+    margin-left: 150px;
+}
+
+.hero {
+    margin-left: 50px;
+}
+
+.hero img {
+    width: 1220px;
+    float: right;
+}
+
+/* This is the styling for Header in hero class*/
+
+.hero h1 {
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    width: 1220px;
+    font-family: calibri;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    margin-left: 62px;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar {
+    margin-top: 50px;
+}
+
+.navbar a {
+    padding: 5px 5px;
+    margin-left: 82px;
+    text-decoration: none;
+    color: steelblue;
+    font-family: calibri;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+a:hover {
+    background-color: steelblue;
+    color: rgb(199, 167, 38);
+    box-shadow: 1px 1px 1px rgb(199, 167, 38);
+}
+
+
+
+.employee{
+    background-color: red;
+}
+
+
+figure img{
+    width: 200px;
+    height: 200px;
+}
+
+/*
+.{
+    position: absolute;
+    top: 550px;
+    background-color: rgba(70, 131, 180, 0.423);
+    height: 250px;
+    width: 1185px;
+    margin-left: 80px;
+}
+
+.blue p {
+    color: white;
+    float: left;
+    margin-left: 1rem;
+    font-family: Alkatra;
+    font-size: 1.1em;
+    font-weight: 600;
+    word-spacing: 3px;
+
+
+}
+
+.blue img {
+    margin-top: 15px;
+    margin-left: 140px;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    margin-left: 50px;
+    font-family: arial;
+    padding-left: 10px;
+}
+
+section>p {
+    padding-left: 50px;
+}
+
+section h2 {
+    color: steelblue;
+    font-family: calibri;
+    text-align: center;
+}
+
+h2:hover {
+    border: 2px transparent;
+    color: rgb(199, 167, 38);
+}
+
+.adv {
+    margin-right: 10px;
+    display: flex;
+}
+
+figure img {
+    width: 170px;
+}
+
+
+*/
+footer {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+footer p {
+    float: left;
+    margin-left: 350px;
+}
+
+footer nav {
+    float: right;
+}
+
+a img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.sociallinks a:hover {
+    border: 0px solid transparent;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px transparent;
+}
