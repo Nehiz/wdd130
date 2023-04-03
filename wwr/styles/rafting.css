@@ -46,7 +46,7 @@ header img {
     font-family: calibri;
     text-align: center;
     position: absolute;
-    top: 170px;
+    top: 230px;
     margin-left: 62px;
 }
 
@@ -75,15 +75,15 @@ a:hover {
 
 .blue {
     position: absolute;
-    top: 370px;
-    background-color:rgba(0, 0, 0, 0.293);
-    height:230px;
+    top: 550px;
+    background-color:rgba(70, 131, 180, 0.423);
+    height:250px;
     width: 1185px;
     margin-left: 80px;
 }
 
 .blue p {
-    color: rgb(253, 251, 251);
+    color: white;
     float: left;
     margin-left: 1rem;
     font-family: Alkatra;
