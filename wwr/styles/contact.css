@@ -158,7 +158,7 @@ form input[type="radio"]{
 .moredetails{
     background-color: steelblue;
     width: 100%;
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
     color: whitesmoke;
@@ -167,7 +167,7 @@ form input[type="radio"]{
 
 .moredetails h1, a{
     color: whitesmoke;
-    margin-top: 90px;
+    margin-top: 30px;
     
 }
 
