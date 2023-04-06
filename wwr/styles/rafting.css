@@ -73,8 +73,8 @@ nav {
     width: 500px;
     background-color: white;
     margin: auto;
-   
 }
+
 .grid-container {
   display: grid;
   gap: 10px;
@@ -146,11 +146,9 @@ input[type="email"]{
     margin-top: 20px;
     width: 300px;
     height: 40px;
-   
 }
 
 .newsletter-form form button{
-   
     background-color: steelblue;
     border: 0px solid transparent;
     color: whitesmoke;
@@ -158,8 +156,8 @@ input[type="email"]{
 }
 .newsletter-form form button:hover {
     box-shadow: 1px 1px 2px 2px goldenrod;
-
 }
+
 .newsletter-news{
     max-width: fit-content;
     width: 80%;
@@ -169,15 +167,26 @@ input[type="email"]{
     word-break: normal;
 }
 
-
-form input[type="text"],
-input[type="email"],
-input[type="tel"] {
-    width: 240px;
-    height: 40px;
-    margin-left: 30px;
-    padding-left: 10px;
+.newsletter-news p a {
+    text-decoration: none;
+    border-radius: 4px;
+    height: 30px;
 }
+
+
+.newsletter-news button {
+    background-color: steelblue;
+    border: 0px solid transparent;
+    color: rgb(142, 27, 27);
+    border-radius: 4px;
+    height: 30px;
+}
+
+.newsletter-news button:hover {
+    box-shadow: 1px 1px 2px 2px goldenrod;
+}
+
+
 
 
 .navbar {
@@ -216,8 +225,6 @@ a:hover {
     font-size: 1.1em;
     font-weight: 600;
     word-spacing: 3px ;
-
-
 }
 
 .blue img {
