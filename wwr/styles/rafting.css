@@ -287,6 +287,11 @@ a img{
     margin-left: 20px;
 }
 
+.sociallinks a {
+    text-decoration: none;
+    color: #000;
+}
+
 .sociallinks a:hover{
     border: 0px solid transparent;
     background-color: transparent;
