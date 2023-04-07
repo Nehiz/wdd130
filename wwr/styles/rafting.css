@@ -148,15 +148,6 @@ input[type="email"]{
     height: 40px;
 }
 
-.newsletter-form form button{
-    background-color: steelblue;
-    border: 0px solid transparent;
-    color: whitesmoke;
-    border-radius: 4px;
-}
-.newsletter-form form button:hover {
-    box-shadow: 1px 1px 2px 2px goldenrod;
-}
 
 .newsletter-news{
     max-width: fit-content;
@@ -175,22 +166,6 @@ input[type="email"]{
     color: whitesmoke;
     
 }
-
-
-.newsletter-news button {
-    background-color: steelblue;
-    border: 0px solid transparent;
-    color: rgb(142, 27, 27);
-    border-radius: 4px;
-    height: 30px;
-}
-
-.newsletter-news button:hover {
-    box-shadow: 1px 1px 2px 2px goldenrod;
-}
-
-
-
 
 .navbar {
     margin-top: 50px;
@@ -265,10 +240,131 @@ h2:hover {
     display: flex;
 }
 
-figure img {
+.adv figure img {
     width: 170px;
     height: 130px;
 }
+
+
+
+
+.employee {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(70, 131, 180, 0.133);
+}
+
+
+figure img {
+    width: 350px;
+    height: 350px;
+}
+
+figcaption {
+    font-family: gabriola;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.details {
+    width: 1340px;
+    height: 900px;
+    background-color: whitesmoke;
+}
+
+.info {
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+
+.info h1 {
+    color: black;
+    font-size: 2.6em;
+    font-family: arial;
+}
+
+.info p {
+    font-size: 1.4em;
+}
+
+
+
+.details form {
+    float: right;
+    height: 600px;
+    width: 600px;
+    margin-right: 50px;
+    margin-top: 80px;
+    background-color: white;
+}
+
+input[name="residence"] {
+    width: 300px;
+    height: 30px;
+    margin-left: 52px;
+    margin-top: 30px;
+}
+form input[type="text"] {
+    width: 400px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+input[type="email"]{
+    width: 400px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+input[type="tel"] {
+    width: 400px;
+    height: 30px;
+    margin-left: 52px;
+    margin-top: 30px;
+}
+
+
+form p {
+    
+    margin-left: 30px;
+}
+
+form input[type="radio"] {
+    margin-left: 30px;
+}
+
+form textarea {
+    min-width: 530px;
+    max-width: 530px;
+    min-height: 90px;
+    max-height: 50px;
+    margin-left: 30px;
+}
+
+form input[type="checkbox"] {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+form button {
+    margin-top: 20px;
+    /* margin-left: 430px; */
+    background-color: steelblue;
+    border: 0px solid transparent;
+    color: whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    box-shadow: 1px 1px 1px 1px goldenrod;
+}
+
+
 
 footer {
     margin-top: 50px;
