@@ -85,7 +85,7 @@
           </iframe>
         </div>
 
-        <form>
+        <form style="padding: 10px; margin: auto;">
         
             <label for="username">Username:</label>
             <input type="text" name="username" id="username" required />
@@ -98,7 +98,8 @@
             ><input type="tel" name="contact" id="contact" required /><br />
 
             <label for="residence">Country of Residence:</label
-            ><input
+            >
+            <input
               type="text"
               name="residence"
               id="residence"
@@ -113,13 +114,14 @@
             <br />
 
             <p><b>Purpose : </b>select an option to tell us why you are here</p>
-            <input type="radio" value="Purpose" name="Purpose" /> General
-            Inquire
-            <input type="radio" value="Purpose" name="Purpose" /> Reservation
-            <input type="radio" value="Purpose" name="Purpose" /> Website
-            Suggestion
+            <input type="radio" value="Purpose" name="Purpose" /> <label for="Purpose">General
+            Inquire</label> 
+            <input type="radio" value="Purpose" name="Purpose" /> <label for="Purpose">Reservation</label> 
+            <input type="radio" value="Purpose" name="Purpose" /> <label for="Purpose">Website Suggestion</label> 
+<p>
 
-            <p><b>Message:</b> Please, leave us your message</p>
+    <label for=""><b>Message:</b> Please, leave us your message</label> 
+</p>
             <textarea
               name="message"
               id="message"
